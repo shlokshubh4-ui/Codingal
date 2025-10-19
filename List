@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <style>
+        body {font-family: Arial, sans-serif;
+            background-color: blue;
+            margin: 20px;}
+        h3 {color: green;
+            text-align: center;
+            text-decoration: underline;}
+        ul {font-size: 18px;
+            line-height: 1.6;}
+</style>
+</head>
+<body>
+<h3>Vegetables<h3>
+<ul>
+<li>Cabbage
+<li>Caulilower
+<li>Potato
+<li>Ladyfinger
+</body>
+</html>
+</html>
