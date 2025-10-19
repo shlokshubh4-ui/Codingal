@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <style>
+        body {font-family: Arial, sans-serif;
+            background-color: blue;
+            margin: 20px;}
+        h1 {color: green;
+            text-align: center;
+            text-decoration: underline;}
+        p {font-size: 18px;
+            line-height: 1.6;}
+</style>
+</head>
+<body>
+<h3>Hello World<h3>
+<a href="name.html">click me</a>    
+</body>
+</html>
