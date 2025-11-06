@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+<style>
+  body {font-family: Arial; background-color: lightblue; margin: 2; padding: 5;}
+  .container {max-width: 400px; background: lightyellow; margin: 60px auto; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);}
+  h2 {text-align: center; color: #2d3436;}
+  label {display: block; margin-top: 10px; font-weight: bold; color: #2d3436;}
+  input, select, textarea {width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #b2bec3; border-radius: 6px;}
+  input[type="radio"] {width: auto; margin-right: 5px;}
+  .gender {margin-top: 5px;}
+  button {width: 100%; padding: 10px; background-color:blue; color: white; border: black; border-radius: 6px; margin-top: 15px; font-size: 16px; cursor: pointer;}
+  button:hover {background: lightblue;}
+  label input[type="checkbox"] {width: auto; margin-right: 5px;}
+
+</style>
+</head>
+<body>
+  <div class="container">
+    <h2>Registration Form</h2>
+    <form>
+      <label>First Name:</label>
+      <input type="text" required>
+      <label>Last Name:</label>
+      <input type="text" required>
+      <label>Email:</label>
+      <input type="email" required>
+      <label>Password:</label>
+      <input type="password" required>
+      <label>Gender:</label>
+      <div class="gender">
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+      </div>
+      <label>Country:</label>
+      <select><option>India</option><option>USA</option><option>UK</option></select>
+      <label>Address:</label>
+      <label><input type="checkbox"> I agree to the terms</label>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>
