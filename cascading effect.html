@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Colorful World</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      /* Gradient background using color names */
+      background: linear-gradient(45deg, red, orange, yellow, green, blue, purple);
+      background-size: 400% 400%;
+      /* Animation to move gradient */
+      animation: moveColors 10s linear infinite;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @keyframes moveColors {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .box {
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 15px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 0 15px gray;
+      width: 300px;
+    }
+
+    h1 {
+      color: darkblue;
+      text-shadow: 1px 1px 2px lightgray;
+    }
+
+    p {
+      color: darkgreen;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>My Colorful World</h1>
+    <p>This page shows how to use gradient backgrounds and animation using color names!</p>
+  </div>
+</body>
+</html>
