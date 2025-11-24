@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Box Model Project</title>
+<style>
+body{font-family:Arial;margin:20px;}
+h2{margin-bottom:6px;}
+.box{background:lightblue;padding:12px;border:4px solid navy;margin:12px;width:200px;height:60px;box-sizing:content-box;}
+.pad{background:lightyellow;padding:20px;border:3px dashed goldenrod;margin:12px;width:200px;height:60px;box-sizing:border-box;}
+.brd{background:lightgreen;padding:8px;border:8px solid green;margin:12px;width:200px;height:60px;box-sizing:content-box;}
+.mrg{background:plum;padding:8px;border:2px solid purple;margin:24px;width:200px;height:60px;box-sizing:content-box;}
+.wrap{display:flex;gap:12px;flex-wrap:wrap;}
+.demo{border:2px solid gray;padding:10px;border-radius:6px;background:whitesmoke;}
+.item{width:160px;height:60px;padding:16px;border:6px solid steelblue;background:white;box-sizing:content-box;}
+.borderbox{box-sizing:border-box;}
+.overflow{width:200px;height:60px;border:2px solid crimson;padding:8px;overflow:auto;}
+ul{margin-top:6px;}
+li{margin-bottom:4px;}
+</style>
+</head>
+<body>
+<h1>Box Model Project</h1>
+
+<h2>Tasks</h2>
+<ol>
+<li>Create boxes showing padding, border, margin.</li>
+<li.Compare content-box and border-box.</li>
+<li.Make a fixed box showing overflow scroll.</li>
+<li.Explain each box model part.</li>
+</ol>
+
+<h2>Examples</h2>
+<div class="wrap">
+<div class="box">content-box</div>
+<div class="pad">padding example</div>
+<div class="brd">border example</div>
+<div class="mrg">margin example</div>
+</div>
+
+<h2>box-sizing comparison</h2>
+<div class="wrap demo">
+<div>
+<div>content-box</div>
+<div class="item">content-box</div>
+</div>
+<div>
+<div>border-box</div>
+<div class="item borderbox">border-box</div>
+</div>
+</div>
+
+<h2>overflow demo</h2>
+<div class="overflow">This text is long and will overflow and show a scrollbar if there is more content inside the box.</div>
+
+<h2>One sentence answers</h2>
+<ul>
+<li>Content holds text or images.</li>
+<li>Padding adds space inside.</li>
+<li>Border surrounds padding and content.</li>
+<li>Margin creates space outside.</li>
+</ul>
+
+</body>
+</html>
