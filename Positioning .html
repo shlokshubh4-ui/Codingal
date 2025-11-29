@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Positioning Project</title>
+<style>
+body{
+font-family:sans-serif;
+margin:0;
+}
+header{
+background:lightblue;
+padding:20px;
+position:sticky;
+top:0;
+}
+.box{
+width:120px;
+height:120px;
+border:3px solid black;
+margin:20px;
+display:inline-block;
+}
+.relative{
+background:lightgreen;
+position:relative;
+top:10px;
+left:20px;
+}
+.absolute-container{
+position:relative;
+height:200px;
+background:beige;
+margin:20px;
+}
+.absolute{
+background:lightcoral;
+position:absolute;
+right:20px;
+bottom:20px;
+width:120px;
+height:120px;
+border:3px solid black;
+}
+.fixed{
+background:gold;
+position:fixed;
+bottom:10px;
+right:10px;
+padding:10px;
+border:2px solid black;
+}
+</style>
+</head>
+<body>
+
+<header>Sticky Header</header>
+
+<div class="box relative">Relative Box</div>
+
+<div class="absolute-container">
+<div class="absolute">Absolute Box</div>
+</div>
+
+<div class="fixed">Fixed Box</div>
+
+<p style="margin:20px;">
+Scroll to see how fixed and sticky elements behave on the page.
+Keep scrolling to notice the header staying on top and the fixed box staying in the corner.
+</p>
+
+<p style="margin:20px;">
+This project shows how elements can move differently depending on their positioning type.
+</p>
+<br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
